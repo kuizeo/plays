@@ -47,4 +47,4 @@ async def on_reaction_add(reaction, user):
   message = await channel_obj.send(file=attachment)  
   for key in keys.keys(): await message.add_reaction(key)
 
-client.run("OTUyMzcwODEzMjQ2NTA5MDY2.Yi1CcA.p77VoOJ_-iqEKNfUfQp1CmPJj3g")
+client.run("token")
